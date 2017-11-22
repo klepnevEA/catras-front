@@ -1,0 +1,29 @@
+.dropdown {
+  .btn {
+    width: 100%;
+    text-align: left;
+  }
+
+  .caret {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+  }
+
+  &-label {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    min-height: 20px;
+  }
+
+  &-menu {
+    padding: 5px;
+  }
+
+  &-item {
+    display: block;
+  }
+}
+
