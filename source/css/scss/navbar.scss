@@ -1,5 +1,25 @@
 .navbar {
+	background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+	border: 1px solid #e5e5e5;
   .mdi {
     font-size: 25px;
+  }
+
+  .nav {
+    a {
+      color: rgba(0,0,0,.5) !important;
+      transition: color 0.2s;
+      &:hover {
+        background: none;
+        color: rgba(0,0,0,1) !important;
+      }
+    }
+    li.active {
+      a {
+        color: rgba(0,0,0,1) !important;
+      }
+    }
+
+
   }
 }

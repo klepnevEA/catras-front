@@ -3,13 +3,12 @@
 module.exports = [
   './gulp/tasks/sass.js',
   './gulp/tasks/less.bootstrap.js',
-  './gulp/tasks/less.mob.js', 
-  './gulp/tasks/less.viz.js',
+  
 
   './gulp/tasks/copy.content.js',
   './gulp/tasks/copy.dist.js',
   './gulp/tasks/copy.fonts.js',
-  './gulp/tasks/copy.less.js',
+  './gulp/tasks/copy.sass.js',
   './gulp/tasks/copy.ie9.js',
   './gulp/tasks/copy.image.js',
   './gulp/tasks/copy.scripts.js', 

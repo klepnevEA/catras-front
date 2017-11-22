@@ -1,0 +1,9 @@
+.select-block {
+	@extend .clearfix;
+	max-width:1000px;
+	float: left;
+	.dropdown-label {
+		white-space: nowrap;
+
+	}
+}

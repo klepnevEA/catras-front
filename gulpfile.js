@@ -25,10 +25,10 @@ $.gulp.task('default', $.gulp.series(
   'clean',
   $.gulp.parallel(
     'sass',
-    'less:bootstrap',
+    // 'less:bootstrap',
     'copy:dist',
     'copy:fonts',
-    'copy:less',
+    'copy:sass',
     'copy:ie9',
     'fileinclude',
     'copy:image',

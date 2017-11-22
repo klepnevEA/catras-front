@@ -1,29 +1,30 @@
-
 * {
     box-sizing: border-box;
 	outline-width: 0px;
 	outline-style: none;
 }
 
-bootstrap
 
-@import 'bootstrap.scss';
-@import 'bootstrap-datepicker/bootstrap-datepicker.scss';
-@import 'bootstrap-datepicker/bootstrap-datepicker.scss';
+
+@import 'bootstrap/bootstrap';
+@import 'datepicker.scss';
 @import 'bootstrap-datepicker/bootstrap-datepicker.standalone.scss';
 @import 'bootstrap-datepicker/bootstrap-datepicker3.scss';
 @import 'bootstrap-datepicker/bootstrap-datepicker3.standalone.scss';
 
 
-@import "variables.scss"; 
-@import "container.scss"; 
-@import "logo.scss"; 
-@import "hr.scss"; 
 
-@import "dropdown.scss"; 
-@import "datepicker.scss"; 
+@import "variables.scss";
+@import "container.scss";
+@import "logo.scss";
+@import "hr.scss";
+
+@import "dropdown.scss";
+@import "datepicker.scss";
 @import "input.scss";
 @import "btn.scss";
 @import "table.scss";
 @import "navbar.scss";
+@import "select-block";
+@import "top-icon";
 

@@ -1,0 +1,16 @@
+.top-icon {
+  @extend .clearfix;
+  a{
+    font-size: 25px;
+    transition: all 0.2s;
+    &:hover {
+      background: none !important;
+      color: $brand-danger;
+    }
+    &:focus {
+      background: none !important;
+      outline: none;
+
+    }
+  }
+}
