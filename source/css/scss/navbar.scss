@@ -23,3 +23,25 @@
 
   }
 }
+
+@media (max-width: 995px) {
+  .navbar {
+    &-wrap {
+      width: calc(100% - 250px); 
+    }
+  } 
+}
+
+@media (max-width: 376px) {
+  .navbar {
+    width: calc(100vw - 130px);
+    
+    &-naw {
+      margin-right: 5px;
+    }
+    
+    &-wrap {
+      width: 120px;
+    }
+  } 
+}

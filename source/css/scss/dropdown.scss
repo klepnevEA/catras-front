@@ -11,7 +11,14 @@
     transform: translate(0, -50%);
   }
 
+  &.show {
+    .btn-secondary {
+      color: #000;
+    }
+  }
+
   &-label {
+    white-space: nowrap;
     padding-left: 3px;
     margin-bottom: 5px;
     font-size: 14px;
@@ -25,5 +32,25 @@
   &-item {
     display: block;
   }
+
+  &-toggle {
+    position: relative
+
+  }
+
+  &-toggle::after {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translate(0, -50%);
+  }
 }
 
+
+@media (max-width: 995px) {
+  .dropdown {
+    &-label {
+      margin-top: 10px;
+    }
+  } 
+}

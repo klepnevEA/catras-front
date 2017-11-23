@@ -6,7 +6,7 @@
 
 
 
-@import 'bootstrap/bootstrap';
+@import 'bootstrap/bootstrap.scss';
 @import 'datepicker.scss';
 @import 'bootstrap-datepicker/bootstrap-datepicker.standalone.scss';
 @import 'bootstrap-datepicker/bootstrap-datepicker3.scss';
@@ -27,4 +27,4 @@
 @import "navbar.scss";
 @import "select-block";
 @import "top-icon";
-
+@import "overflow-x";

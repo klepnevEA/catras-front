@@ -25,11 +25,9 @@ $.gulp.task('default', $.gulp.series(
   'clean',
   $.gulp.parallel(
     'sass',
-    // 'less:bootstrap',
     'copy:dist',
     'copy:fonts',
     'copy:sass',
-    'copy:ie9',
     'fileinclude',
     'copy:image',
     'copy:scripts'

@@ -4,4 +4,14 @@
   td {
     height: 37px;
   }
+
+  thead {
+  	th {
+  		white-space: nowrap;
+  	}
+  }
+
+  &__btn-wrap {
+  	white-space: nowrap;
+  }
 }

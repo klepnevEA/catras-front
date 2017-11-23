@@ -1,8 +1,16 @@
 .top-icon {
   @extend .clearfix;
+  align-items: center;
+  justify-content: flex-end;
+  height: 58px;
+  
+  li {
+    margin-left:20px;
+  }
   a{
     font-size: 25px;
     transition: all 0.2s;
+    
     &:hover {
       background: none !important;
       color: $brand-danger;
@@ -13,4 +21,31 @@
 
     }
   }
+}
+
+
+@media (max-width: 995px) {
+  .top-icon {
+    &-wrap {
+      width: 150px; 
+    }
+  } 
+}
+
+@media (max-width: 321px) {
+  .top-icon {
+    &-wrap {
+      width: 80px;
+      padding: 0;
+    }
+
+    li {
+      margin:0 5px;
+    }
+
+    a{
+      font-size: 18px;
+      margin-left: 0;
+    }
+  } 
 }

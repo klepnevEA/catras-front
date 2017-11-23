@@ -3,10 +3,11 @@
   background-color: $black;
   border-radius: 4px;
   padding: 5px;
-  height: 52px;    
+  height: 58px;    
   text-align: center;
   box-sizing: border-box;
   border:1px solid $black; 
+  min-width: 70px;
   
   img {
     height: 100%; 
@@ -14,3 +15,13 @@
   
 }
 
+@media (max-width: 995px) {
+  .logo {
+    margin-bottom: 10px;
+    width: 70px;
+    
+    &-wrap {
+      width: 100px;
+    }
+  } 
+}
